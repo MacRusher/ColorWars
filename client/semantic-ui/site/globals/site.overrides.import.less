@@ -1,0 +1,124 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+body {
+  background-color: #DADADA;
+}
+
+//fix for middle align
+#react-root {
+  height: 100%;
+
+  & > .container {
+    min-height: 100%;
+  }
+}
+
+//fix for react magic-span
+.ui.divider.header .icon {
+  display: inline-block;
+  padding: 0;
+  margin-right: .75rem;
+}
+
+.game-table {
+  margin: 0 auto;
+  width: 20em;
+  user-select: none;
+  transition: background-color 0.5s;
+
+  .row {
+    width: 20em;
+  }
+
+  .tile {
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+
+    &.free {
+      cursor: pointer;
+    }
+
+    &.glow {
+      animation: RedGlow 1s ease infinite;
+    }
+
+  }
+}
+
+//colors
+.bgcolor {
+  &-x {
+    background-color: #000;
+  }
+  &-0 {
+    background-color: #f2711c;
+  }
+  &-1 {
+    background-color: #fbbd08;
+  }
+  &-2 {
+    background-color: #6435c9;
+  }
+  &-3 {
+    background-color: #2185d0;
+  }
+  &-4 {
+    background-color: #e03997;
+  }
+  &-5 {
+    background-color: #a5673f;
+  }
+}
+
+.color,
+.ui.header.color {
+  &-0 {
+    color: #f2711c;
+  }
+  &-1 {
+    color: #fbbd08;
+  }
+  &-2 {
+    color: #6435c9;
+  }
+  &-3 {
+    color: #2185d0;
+  }
+  &-4 {
+    color: #e03997;
+  }
+  &-5 {
+    color: #a5673f;
+  }
+}
+
+.select-button {
+  user-select: none;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  margin: 0 0.5em;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: opacity 0.5s;
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.2;
+  }
+}
+
+@keyframes RedGlow {
+  0% {
+    background-color: #eee;
+  }
+  50% {
+    background-color: #f00;
+  }
+  100% {
+    background-color: #eee;
+  }
+}
