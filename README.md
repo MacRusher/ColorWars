@@ -9,7 +9,7 @@ You can find lots of games with similar mechanics, but most of them are single p
 
 ColorWars brings new quality with online PVP! :D
 
-You can play either with computer (when there is no one else online) or other visitors, just join pending invitation or create new one.
+You can play either with computer (when there is no one else online) or with other visitors, just join pending invitation or create new one.
 
 ## Rules
 
@@ -21,9 +21,15 @@ You can play either with computer (when there is no one else online) or other vi
 5. Game ends when there are no "free" tiles on the map.
 6. Whoever floods into more tiles wins!
 
+## Try it out!
+
+You can play it online at:
+
+[colorwars.meteor.com](http://colorwars.meteor.com/)
+
 ## Future plans
 
-If people will like it I will continue work on this game, adding new modes, extra goodies and fixing bugs :)  
+If people will like it I will continue work on this game, adding mobile versions, new modes, extra goodies and fixing bugs :)
 
 ## Used packages
 
