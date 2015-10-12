@@ -2,12 +2,14 @@
 
 This game is a submission for [Meteor Global Hackaton 2015](http://meteor-2015.devpost.com/)
 
+See introduction video [at youtube](https://www.youtube.com/watch?v=Sr4VtQ7pVoM)
+
 ## Concept
 
-Games is based on a game concept called "flood it".
+Game is based on a concept called "flood it".
 You can find lots of games with similar mechanics, but most of them are single player.
 
-ColorWars brings new quality with online PVP! :D
+ColorWars brings new quality with online Player VS Player!
 
 You can play either with computer (when there is no one else online) or with other visitors, just join pending invitation or create new one.
 
@@ -19,7 +21,7 @@ You can play either with computer (when there is no one else online) or with oth
 3. You cannot select your or your opponent current selected color.
 4. After your turn opponent floods into his selected color.
 5. Game ends when there are no "free" tiles on the map.
-6. Whoever floods into more tiles wins!
+6. Whoever takes more tiles wins!
 
 ## Try it out!
 
@@ -48,7 +50,6 @@ Community packages:
 - universe:collection
 - universe:utilities
 - universe:utilities-react
-
 - kadira:react-layout
 - kadira:dochead
 - semantic:ui and flemay:less-autoprefixer
