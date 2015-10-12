@@ -19,16 +19,16 @@ underscore
 
 react
 
-kadira:react-layout
-
-semantic:ui
-flemay:less-autoprefixer
-
 universe:modules
 universe:collection
 universe:utilities
 universe:utilities-react
 
-artwells:accounts-guest
-accounts-password
+kadira:react-layout
 kadira:dochead
+
+semantic:ui
+flemay:less-autoprefixer
+
+accounts-password
+artwells:accounts-guest
